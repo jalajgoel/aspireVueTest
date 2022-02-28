@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #222222;
+}
+.font-12{
+    font-size: 12px !important;
+}
+.font-13{
+    font-size: 13px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+.font-15{
+    font-size: 15px !important;
+}
+.font-24{
+    font-size: 24px !important;
+}
+.font-26{
+    font-size: 26px !important;
+}
+.btn-primary{
+    background-color: #325BAF !important;
+}
+.btn-primary:hover{
+    color: #fff !important;
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    color: #325bae !important;
+}
+.sidebar{
+    height: 100vh;
+    background-color: #0C365A;
+    padding: 48px;
+}
+.modal-header{
+    border-bottom: 0 !important;
+    padding-bottom: 8px !important;
+}
+button:focus, a:focus, input:focus{
+    box-shadow: none !important;
+}

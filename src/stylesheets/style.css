@@ -1,0 +1,340 @@
+/* Debit Cards */
+.card-carousel .cc-card{
+    border-radius: 16px;
+    padding: 72px 28px 54px 28px;
+    color: #fff;
+    position: relative;
+    background-color: #01D167;
+}
+.card-carousel .cc-card.green{
+    background-color: #01D167;
+}
+.card-carousel .cc-card.blue{
+    background-color: #536DFF;
+}
+.card-carousel .cc-card.pink{
+    background-color: #e20097;
+}
+.card-carousel .cc-card .cc-card-body .card-logo{
+    width: 80px;
+    height: 24px;
+    position: absolute;
+    right: 28px;
+    top: 28px;
+}
+.card-carousel .cc-card .cc-card-body .visa-image{
+    position: absolute;
+    bottom: 28px;
+    right: 28px;
+}
+.card-carousel .cc-card .cc-card-body .card-no{
+    margin-top: 28px;
+}
+.card-carousel .cc-card .cc-card-body .card-no span.font-14{
+    line-height: 14px;
+    margin-right: 4px;
+}
+.card-carousel .cc-card .cc-card-body .valid{
+    margin-top: 20px;
+}
+.card-carousel .cc-card .cc-card-body .valid p span:first-child{
+    margin-right: 4px;
+}
+.card-carousel .cc-card .cc-card-body .card-no .hidden-no{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 6px;
+}
+/* Section */
+.section-main{
+    padding: 60px 48px 48px 60px;
+}
+.section-main .section-head h4 span{
+    margin-right: 12px;
+    color: #fff;
+    background-color: #01D167;
+    padding: 4px 13px;
+    border-radius: 4px;
+}
+.section-main .section-head .btn-primary{
+    padding: 8px 12px !important;
+    display: flex;
+}
+.section-main .section-head .btn-primary img{
+    margin-right: 8px;
+}
+.section-main .section-body .tab-content{
+    border: 1px solid #FCFCFC;
+    box-shadow: 0 2px 12px #00000014;
+    border-radius: 8px;
+    padding: 40px;
+}
+.section-main .section-body .nav-pills .nav-link{
+    padding: 0 0 4px 0;
+    background-color: transparent;
+    color: #222;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    opacity: 0.3;
+    margin-right: 32px;
+}
+.section-main .section-body .nav-pills .nav-link.active{
+    padding: 0 0 4px 0;
+    background-color: transparent;
+    color: #222;
+    border-bottom: 2px solid #23CEFD;
+    border-radius: 0;
+    opacity: 1;
+}
+.show-no a{
+    color: #01D167 !important;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.show-no a img{
+    width: 16px;
+}
+.card-menu{
+    padding: 20px 20px;
+    background-color: #EDF3FF;
+    border-radius: 16px;
+}
+.card-menu ul li{
+    width: 19%;
+    margin-right: 0 !important;
+}
+.card-menu ul li a{
+    width: 64px;
+    text-align: center;
+    margin: 0 auto;
+    color: #0C365A !important;
+}
+.card-menu ul li a img{
+    margin-bottom: 8px;
+}
+/* Sidebar */
+.sidebar p{
+    color: #fff;
+    opacity: 0.3;
+}
+.sidebar .sidebar-menu .sidebar-menu-item li{
+    margin-bottom: 60px;
+}
+.sidebar .sidebar-menu .sidebar-menu-item li a{
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+}
+.sidebar .sidebar-menu .sidebar-menu-item li a:hover, .sidebar .sidebar-menu .sidebar-menu-item li a.active{
+    color: #01D167 !important;
+}
+.sidebar .sidebar-menu .sidebar-menu-item li a:hover img:first-child, .sidebar .sidebar-menu .sidebar-menu-item li a.active img:first-child, .sidebar .sidebar-menu .sidebar-menu-item li a img:last-child{
+    display: none;
+}
+.sidebar .sidebar-menu .sidebar-menu-item li a:hover img:last-child, .sidebar .sidebar-menu .sidebar-menu-item li a.active img:last-child, .sidebar .sidebar-menu .sidebar-menu-item li a img:first-child{
+    display: block;
+}
+.sidebar .sidebar-menu .sidebar-menu-item li a img:nth-child(2){
+    display: none;
+}
+/* Slick */
+.slick-dots{
+    bottom: -20px;
+}
+.slick-dots li{
+    width: 8px;
+    height: 8px;
+}
+.slick-dots li button{
+    padding: 0;
+    width: 8px;
+    height: 8px;
+}
+.slick-dots li button:before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: #01D167;
+    opacity: 0.3;
+    border-radius: 6px;
+    padding: 0;
+}
+.slick-dots li.slick-active button:before{
+    width: 8px;
+}
+/* Accordion */
+.accordion-card .accordion-button{
+    padding: 1.5rem;
+}
+.accordion-card .accordion-button span{
+    margin-left: 12px;
+}
+.accordion-card .accordion-item{
+    margin-bottom: 24px;
+    border-radius: 8px;
+    background-color: #F5F9FF;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0 0 8px #0000000A;
+}
+.accordion-card .accordion-item .accordion-button{
+    background-color: #F5F9FF !important;
+    color: #0C365A !important;
+    border-radius: 8px;
+}
+.accordion-card .accordion-item .accordion-body{
+    background-color: #fff;
+    padding: 1.5rem;
+}
+.accordion-card .accordion-item .accordion-body ul li{
+    border-bottom: 1px solid #F5F5F5;
+    margin-bottom: 16px;
+}
+.accordion-card .accordion-item .accordion-body ul li a{
+    padding-bottom: 16px;
+}
+.accordion-card .accordion-item .accordion-body .transaction .icon{
+    width: 48px;
+    height: 48px;
+    background-color: #009DFF1A;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+.accordion-card .accordion-item .accordion-body .transaction .icon.sucess{
+    background-color: #00D6B51A;
+}
+.accordion-card .accordion-item .accordion-body .transaction .icon.warning{
+    background-color: #F251951A;
+}
+.accordion-card .accordion-item .accordion-body .transaction h6{
+    color: #222;
+}
+.accordion-card .accordion-item .accordion-body .transaction small{
+    color: #aaa;
+    display: block;
+    margin-bottom: 12px;
+}
+.accordion-card .accordion-item .accordion-body .transaction p{
+    font-weight: 600;
+    color: #325BAF;
+}
+.accordion-card .accordion-item .accordion-body .transaction .amount{
+    font-weight: 700;
+    color: #222222;
+}
+.accordion-card .accordion-item .accordion-body .transaction .amount img{
+    margin-left: 6px;
+}
+.accordion-card .accordion-item .accordion-body .transaction .amount.refund{
+    color: #01D167;
+}
+.accordion-card .accordion-item .accordion-body .transaction .type{
+    width: 24px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #325BAF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+.pointer-none {
+    pointer-events: none;
+}
+.a-color-white {
+    color: #fff !important;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 575.98px) {
+    .sidebar .logo{
+        display: none;
+    }
+    .sidebar{
+        padding: 0;
+        height: 0;
+    }
+    .sidebar .sidebar-menu{
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    .sidebar .sidebar-menu .sidebar-menu-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sidebar .sidebar-menu .sidebar-menu-item li{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 20%;
+    }
+    .sidebar .sidebar-menu .sidebar-menu-item li a{
+        flex-direction: column;
+    }
+    .sidebar .sidebar-menu .sidebar-menu-item li a{
+        opacity: 0.3;
+        color: #000 !important;
+        font-size: 12px;
+    }
+    .sidebar .sidebar-menu .sidebar-menu-item li a img{
+        margin-right: 0 !important;
+    }
+    .sidebar .sidebar-menu .sidebar-menu-item li a:hover, .sidebar .sidebar-menu .sidebar-menu-item li a.active{
+        color: #01D167 !important;
+        opacity: 1;
+    }
+    .sidebar .sidebar-menu .sidebar-menu-item li a img:first-child, .sidebar .sidebar-menu .sidebar-menu-item li a:hover img:nth-child(2), .sidebar .sidebar-menu .sidebar-menu-item li a.active img:nth-child(2){
+        display: none;
+    }
+    .sidebar .sidebar-menu .sidebar-menu-item li a img:nth-child(2), .sidebar .sidebar-menu .sidebar-menu-item li a img:nth-child(2){
+        opacity: 0.3;
+        display: block;
+    }
+    .sidebar .sidebar-menu .sidebar-menu-item li a:hover img:last-child, .sidebar .sidebar-menu .sidebar-menu-item li a.active img:last-child{
+        display: block;
+    }
+    .section-main{
+        padding: 16px 0 50px 0;
+        background-color: #0C365A;
+    }
+    .section-main .section-body .tab-content{
+        padding: 0;
+        box-shadow: none;
+        border: 0;
+    }
+    .section-head, .section-body .nav-pills, .slick-slider, .show-no{
+        padding: 0 24px;
+    }
+    .card-carousel .cc-card{
+        padding: 56px 18px 40px 18px;
+    }
+    .card-menu{
+        padding: 12px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .card-menu ul li{
+        width: 18.75%;
+    }
+    .font-white{
+        color: #fff !important;
+    }
+    .section-main .section-head .btn-primary{
+        background-color: #01D167 !important;
+        border-color: #01D167 !important;
+    }
+    .mobile-bg{
+        background-color: #fff;
+    }
+}
